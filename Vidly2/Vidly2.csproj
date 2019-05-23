@@ -230,9 +230,34 @@
     <Compile Include="Migrations\201905230231277_AddMembershipTypeNamesCustomer.Designer.cs">
       <DependentUpon>201905230231277_AddMembershipTypeNamesCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905230248502_AddCustomerBirthdate.cs" />
+    <Compile Include="Migrations\201905230248502_AddCustomerBirthdate.Designer.cs">
+      <DependentUpon>201905230248502_AddCustomerBirthdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905230258482_AddCustomerBirthdateFix.cs" />
+    <Compile Include="Migrations\201905230258482_AddCustomerBirthdateFix.Designer.cs">
+      <DependentUpon>201905230258482_AddCustomerBirthdateFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905230316427_MoviesMigrationPropsAndGenres.cs" />
+    <Compile Include="Migrations\201905230316427_MoviesMigrationPropsAndGenres.Designer.cs">
+      <DependentUpon>201905230316427_MoviesMigrationPropsAndGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905230323395_MoviesMigrationPropsAndGenresFix.cs" />
+    <Compile Include="Migrations\201905230323395_MoviesMigrationPropsAndGenresFix.Designer.cs">
+      <DependentUpon>201905230323395_MoviesMigrationPropsAndGenresFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905230324491_MoviesMigrationPropsAndGenresFix2.cs" />
+    <Compile Include="Migrations\201905230324491_MoviesMigrationPropsAndGenresFix2.Designer.cs">
+      <DependentUpon>201905230324491_MoviesMigrationPropsAndGenresFix2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905230325253_MoviesGenresAdd.cs" />
+    <Compile Include="Migrations\201905230325253_MoviesGenresAdd.Designer.cs">
+      <DependentUpon>201905230325253_MoviesGenresAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -305,6 +330,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -343,6 +369,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905230231277_AddMembershipTypeNamesCustomer.resx">
       <DependentUpon>201905230231277_AddMembershipTypeNamesCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905230248502_AddCustomerBirthdate.resx">
+      <DependentUpon>201905230248502_AddCustomerBirthdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905230258482_AddCustomerBirthdateFix.resx">
+      <DependentUpon>201905230258482_AddCustomerBirthdateFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905230316427_MoviesMigrationPropsAndGenres.resx">
+      <DependentUpon>201905230316427_MoviesMigrationPropsAndGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905230323395_MoviesMigrationPropsAndGenresFix.resx">
+      <DependentUpon>201905230323395_MoviesMigrationPropsAndGenresFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905230324491_MoviesMigrationPropsAndGenresFix2.resx">
+      <DependentUpon>201905230324491_MoviesMigrationPropsAndGenresFix2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905230325253_MoviesGenresAdd.resx">
+      <DependentUpon>201905230325253_MoviesGenresAdd.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
